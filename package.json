@@ -1,0 +1,53 @@
+{
+	"name": "vol-cli",
+	"version": "0.0.0",
+	"description": "Get and set sound volume",
+	"license": "MIT",
+	"repository": "gillstrom/vol-cli",
+	"author": {
+		"name": "Andreas Gillström",
+		"email": "andreasgillstrom@gmail.com",
+		"url": "github.com/gillstrom"
+	},
+	"bin": {
+		"vol": "cli.js",
+		"volume": "cli.js"
+	},
+	"engines": {
+		"node": ">=4"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"cli.js"
+	],
+	"keywords": [
+		"app",
+		"cli",
+		"cli-app",
+		"interactive",
+		"linux",
+		"mac",
+		"osx",
+		"sound",
+		"vol",
+		"volume"
+	],
+	"dependencies": {
+		"chalk": "^2.1.0",
+		"cli-cursor": "^2.1.0",
+		"first-run": "^1.2.0",
+		"indent-string": "^3.2.0",
+		"meow": "^3.7.0",
+		"progress-control": "^1.2.0",
+		"to-decimal": "^2.0.0",
+		"to-percent": "^1.0.2",
+		"vol": "^3.0.0"
+	},
+	"devDependencies": {
+		"ava": "*",
+		"execa": "^0.8.0",
+		"xo": "*"
+	}
+}
