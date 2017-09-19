@@ -1,6 +1,6 @@
 {
 	"name": "vol-cli",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Get and set sound volume",
 	"license": "MIT",
 	"repository": "gillstrom/vol-cli",
